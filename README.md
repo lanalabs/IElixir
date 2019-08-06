@@ -14,7 +14,7 @@ Please see generated documentation for implementation details: http://hexdocs.pm
 
 ## Getting Started
 
-### Table of contents
+### Table of contents 
 
 * [Configure Jupyter](#configure-jupyter)
 * [Configure IElixir](#configure-ielixir)
