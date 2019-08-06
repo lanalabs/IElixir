@@ -39,7 +39,7 @@ defmodule IElixir.Mixfile do
      {:postgrex, ">= 0.0.0"},
 
      #Rukh as a dependency:
-     #{:rukh, path: "/home/harun/Lana-Labs/Backend/lana-backend-scala/rukh" , runtime: false},
+     #{:rukh, path: "/path/to/rukh" , runtime: false},
 
      # Docs dependencies
      {:earmark, "~> 1.3.2", only: :docs},
