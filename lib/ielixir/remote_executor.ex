@@ -4,8 +4,9 @@ defmodule IElixir.RemoteExecutor do
 
   Usage:
 
-  import IElixir.RemoteExecutor
   ```
+  import IElixir.RemoteExecutor
+
   remote do
     Rukh.TSL.Helpers.datasources()
   end
