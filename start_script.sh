@@ -11,5 +11,7 @@ then
   export MIX_ENV=prod
 fi
 IELIXIR_PATH=$(cd `dirname "$0"` && pwd)/
+
 cd $IELIXIR_PATH
-ELIXIR_ERL_OPTIONS="-smp enable" CONNECTION_FILE=$1 mix run --no-halt
+ELIXIR_ERL_OPTIONS="-smp enable" CONNECTION_FILE=$1 elixir --sname jupyter-node -S mix run --no-halt
+
