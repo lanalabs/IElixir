@@ -14,5 +14,7 @@ defmodule IElixir do
 
     {:ok, ctx} = :erlzmq.context()
     IElixir.Supervisor.start_link(conn_info: conn_info, ctx: ctx)
+
+    Node.start(:"jupyter-node@127.0.0.1")
   end
 end
