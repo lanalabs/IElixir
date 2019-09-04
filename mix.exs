@@ -38,8 +38,8 @@ defmodule IElixir.Mixfile do
      {:ecto_sql, "~> 3.0"},
      {:postgrex, ">= 0.0.0"},
 
-     #Rukh as a dependency:
-     #{:rukh, path: "/path/to/rukh" , runtime: false},
+     # Telemetry requires local rebar compilation, so we need to specify it here
+     {:telemetry, "~> 0.4.0"},
 
      # Docs dependencies
      {:earmark, "~> 1.3.2", only: :docs},
