@@ -12,3 +12,5 @@ resources/ielixir/kernel.json
 .elixir_ls/
 envs/
 log/
+resources/.ipynb_checkpoints/
+
